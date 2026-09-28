@@ -4,8 +4,4 @@ class Solution:
         pow10 = 1
         while pow10 <= n:
             divisor = pow10 * 10
-            quotient = n // divisor
-            remainder = n % divisor
-            
-            if quotient > 0:
-             
+           
