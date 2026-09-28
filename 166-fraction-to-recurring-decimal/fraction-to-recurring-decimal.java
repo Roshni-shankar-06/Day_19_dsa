@@ -34,14 +34,4 @@ class Solution {
                 result.insert(map.get(remainder), "(");
                 result.append(")");
                 break;
-            }
-            
-            map.put(remainder, result.length());
-            remainder *= 10;
-            result.append(remainder / den);
-            remainder %= den;
-        }
         
-        return result.toString();
-    }
-}
