@@ -21,11 +21,4 @@ class Solution {
                 result.clear();
                 result.add(Arrays.asList(arr[i], arr[i + 1]));
             } else if (currentDiff == minDiff) {
-                // Found another pair with the same minimum difference: add to list
-                result.add(Arrays.asList(arr[i], arr[i + 1]));
-            }
-        }
-        
-        return result;
-    }
-}
+  
