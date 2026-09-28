@@ -9,8 +9,4 @@ class Solution:
             v2 = int(levels2[i]) if i < len(levels2) else 0
             
             if v1 < v2:
-                return -1
-            if v1 > v2:
-                return 1
-                
-        return 0
+         
