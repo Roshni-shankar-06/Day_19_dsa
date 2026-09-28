@@ -16,15 +16,5 @@ class Solution {
         long den = Math.abs((long) denominator);
         
         // Append integer part
-        result.append(num / den);
-        long remainder = num % den;
-        
-        if (remainder == 0) {
-            return result.toString();
-        }
-        
-        // Append decimal point
-        result.append(".");
-        
-    
+     
         
