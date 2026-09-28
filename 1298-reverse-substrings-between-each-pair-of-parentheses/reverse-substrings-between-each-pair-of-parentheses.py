@@ -3,8 +3,4 @@ class Solution(object):
         stk = []
         for c in s:
             if c == ")":
-                t = []
-                while stk and stk[-1] != "(":
-                    t.append(stk.pop())
-                if stk and stk[-1] == "(":
                
