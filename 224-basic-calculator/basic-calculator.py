@@ -8,10 +8,4 @@ class Solution:
         for char in s:
             if char.isdigit():
                 # Build the multi-digit number
-                current_number = current_number * 10 + int(char)
-                
-            elif char == '+':
-                # Evaluate the expression to the left
-                current_result += sign * current_number
-                # Update sign and reset the current number
-              
+             
