@@ -26,12 +26,5 @@ class Solution {
         // Append decimal point
         result.append(".");
         
-        // Map to store remainder and its corresponding position in StringBuilder
-        java.util.Map<Long, Integer> map = new java.util.HashMap<>();
-        
-        while (remainder != 0) {
-            if (map.containsKey(remainder)) {
-                result.insert(map.get(remainder), "(");
-                result.append(")");
-                break;
+    
         
