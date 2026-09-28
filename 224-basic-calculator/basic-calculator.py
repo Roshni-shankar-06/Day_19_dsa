@@ -14,15 +14,4 @@ class Solution:
                 # Evaluate the expression to the left
                 current_result += sign * current_number
                 # Update sign and reset the current number
-                sign = 1
-                current_number = 0
-                
-            elif char == '-':
-                # Evaluate the expression to the left
-                current_result += sign * current_number
-                # Update sign and reset the current number
-            
-                # Reset result and sign for the new sub-expression
-     
-                
-           
+              
