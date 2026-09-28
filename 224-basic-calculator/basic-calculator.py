@@ -37,12 +37,4 @@ class Solution:
                 current_result += sign * current_number
                 current_number = 0
                 
-                # Pop the sign and the previous result from the stack
-                saved_sign = stack.pop()
-                saved_result = stack.pop()
-                
-                # Apply the sign to the parenthesis result and add it to the outer result
-                current_result = saved_result + (saved_sign * current_result)
-        
-        # Add any remaining number at the end of the string
-        return current_result + (sign * current_number)
+           
