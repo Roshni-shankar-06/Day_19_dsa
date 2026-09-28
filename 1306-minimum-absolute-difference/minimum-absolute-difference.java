@@ -9,10 +9,4 @@ class Solution {
         // Step 1: Sort the array
         Arrays.sort(arr);
         
-        int minDiff = Integer.MAX_VALUE;
-        
-        // Step 2: Single pass to find minimum difference and build the result
-        for (int i = 0; i < arr.length - 1; i++) {
-            int currentDiff = arr[i + 1] - arr[i];
-            
-      
+    
