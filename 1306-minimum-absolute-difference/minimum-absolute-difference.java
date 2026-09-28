@@ -15,10 +15,4 @@ class Solution {
         for (int i = 0; i < arr.length - 1; i++) {
             int currentDiff = arr[i + 1] - arr[i];
             
-            if (currentDiff < minDiff) {
-                // Found a smaller difference: update minDiff and reset the list
-                minDiff = currentDiff;
-                result.clear();
-                result.add(Arrays.asList(arr[i], arr[i + 1]));
-            } else if (currentDiff == minDiff) {
-  
+      
