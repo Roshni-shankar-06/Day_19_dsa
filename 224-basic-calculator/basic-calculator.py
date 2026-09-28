@@ -29,12 +29,6 @@ class Solution:
                 stack.append(current_result)
                 stack.append(sign)
                 # Reset result and sign for the new sub-expression
-                current_result = 0
-                sign = 1
-                
-            elif char == ')':
-                # Evaluate the last number before the closing parenthesis
-                current_result += sign * current_number
-                current_number = 0
+     
                 
            
