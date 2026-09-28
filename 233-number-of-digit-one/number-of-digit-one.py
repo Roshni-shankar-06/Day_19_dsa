@@ -11,6 +11,4 @@ class Solution:
                 ans += quotient * pow10
             if remainder >= pow10:
                 ans += min(remainder - pow10 + 1, pow10)
-                
-            pow10 *= 10
-        return ans
+         
