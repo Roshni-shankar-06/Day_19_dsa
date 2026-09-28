@@ -21,13 +21,7 @@ class Solution:
                 # Evaluate the expression to the left
                 current_result += sign * current_number
                 # Update sign and reset the current number
-                sign = -1
-                current_number = 0
-                
-            elif char == '(':
-                # Push the current result and sign to the stack
-                stack.append(current_result)
-                stack.append(sign)
+            
                 # Reset result and sign for the new sub-expression
      
                 
